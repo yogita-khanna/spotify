@@ -1,0 +1,443 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+}
+.pannel-1{
+    top: 0;
+    position: sticky;
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.section-1, .section-2{
+    padding: 20px;
+    background-color: rgb(13, 12, 12);
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.part-1{
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(13, 12, 12);
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+.home, .search , .library{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-size: 15px;
+}
+.home i, .search i , .library i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.search,  .library, .icon{
+    color: grey;
+}
+.library{
+    width: 68%;
+}
+.section-2{
+    display: flex;
+}
+.icon{
+    width: 32%;
+    display: flex;
+    justify-content: right;
+}
+.icon i{
+    margin: 10px;
+    font-size: 20px;
+}
+.grid-1{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(38, 37, 37);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.grid-1 p{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.grid-1 div{
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.create-playlist{
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.create-playlist:hover{
+    font-size: 16px;
+}
+.pannel-2{
+    width: 70%;
+    background-color: black;
+    color: white;
+}
+.section-3{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgb(26, 25, 25);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+/* .left{
+    justify-content: left;
+} */
+.navbar{
+    width: 100%;
+    top: 22px;
+    position: sticky;
+    display: flex;
+    justify-content: space evenly;
+}
+.angular-bracket{
+    width: 53%;
+    justify-content: left;
+}
+.angular-bracket i, .nav-icon i{
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+.nav:hover{
+    font-size: 20px;
+}
+.install-app{
+    margin-left: 20px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.install-app:hover{
+    font-size: 16px;
+}
+.hero-1{
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+.hero-1 .image-1 img{
+    height: 250px;
+    width: 230px;
+    margin-right: 20px;
+    border-radius: 20px;   
+}
+.podcast, .bold{
+    padding-bottom: 7px;
+}
+.podcast{
+    margin-top: 25%;
+}
+.bold{
+    font-size: 27px;
+    font-weight: 700;
+}
+.spotify{
+    font-size: 20px;
+    font-weight: 700;
+}
+.hero-2{
+    display: flex;
+    margin-left: 20px;
+}
+.follow{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 18px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.dot{
+    font-size: 30px;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px;
+}
+.text{
+    width: 80%;
+    /* white-space: 10px; */
+    justify-content: left;
+    padding-left: 20px;
+    color: rgb(167, 162, 162);
+}
+.star{
+    height: fit-content;
+    width: fit-content;
+    padding: 8px;
+    background-color: rgb(47, 46, 46);
+    border-radius: 15px;
+    margin: 20px;
+}
+.star:hover{
+    background-color: rgb(70, 68, 68);
+}
+.hero-5{
+    width: 80%;
+    background-color: rgb(47, 46, 46);
+    padding: 20px;
+    border-radius: 3px;
+}
+.up-next{
+    color: gray;
+    padding: 10px;
+}
+.driving{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.play{
+    padding: 20px;
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+.play i{
+    color: black;
+    background-color: rgb(2, 152, 2);
+    padding: 10px;
+    border-radius: 49%;
+    margin-right: 20px;
+}
+.hero-7{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(68, 67, 67);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.hero-7:hover{
+    background-color: rgb(68, 67, 67);
+} 
+/* .main{
+    display: block;
+    justify-content: left;
+} */
+.hero-7 img{
+    margin-left: 20px;
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.driving-1{
+    font-weight: 700;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.next{
+    font-size: 14px;
+    color: rgb(163, 160, 160);
+    padding-bottom: 20px;
+}
+.play-1 i{
+    color: black;
+    background-color: white;
+    padding: 7px;
+    border-radius: 48%;
+    margin-right: 20px;
+}
+.play-1 span{
+    font-size: 15px;
+    color: rgb(163, 160, 160);
+}
+.pre-first{
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.pre-first img{
+    margin-right: 5px;
+}
+#img{
+    width: 70px;
+    height: 70px;
+    align-content: center;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#name{
+    color: white;
+}
+
+.foot-1{
+    margin: 30px;
+    display: flex;
+}
+.foot-2{
+    margin: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(93, 92, 92);
+}
+.foot-1 p, .foot-2 p{
+    color: white;
+    padding-bottom: 7px;
+}
+.foot-1 div, .foot-2 div{
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: rgb(181, 177, 177);
+}
+.company{
+    width: 30%;
+}
+.communities{
+    width: 50%;
+    justify-content: left;
+}
+.promotion{
+    width: 20%;
+    font-size: 15px;
+}
+.promotion i{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+.foot-1 p, .foot-2 p{
+    font-size: 17px;
+    font-weight: 700;
+}
+.foot-3{
+    display: flex;
+    font-size: 14px;
+    color: rgb(181, 177, 177);
+    margin-left: 30px;
+}
+.content{
+    width: 80%;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: left;
+}
+.content span{
+    padding-left: 10px;
+}
+.customization{
+    width: 20%;
+    justify-content: right;
+}
+.foot-4{
+    height: 90px;
+}
+.last-section{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 561px;
+    background-color: black;
+}
+.last-section{
+    display: flex;
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+.first{
+    width: 55%;
+    padding-left: 18%;
+    justify-content: right;
+}
+.second{
+    width: 25%;
+    justify-content: right;
+}
+.second i{
+    padding: 5px;
+}
+.second input{
+    color: green;
+    width: 70px;
+    height: 5px;
+    margin-bottom: 5px;
+}
+.a{
+    color: rgb(35, 35, 35);
+}
+.first-1{
+    font-size: 25px;  
+}
+.first-1 i{
+    padding: 10px;
+}
+.b{
+    font-size: 32px;
+}
+.b:hover{
+    font-size: 35px;
+}
+.first-2 {
+    width: 100%;
+    background-color: rgb(73, 73, 73);
+    height: 4px;
+    width: 500px;
+    margin-left: 10%;
+}
+.div{
+    background-color: white;
+    height: 4px;
+    width: 0;
+}
+/* .first-2 input[type="range"] {
+    background-color: rgb(73, 73, 73);
+    border-radius: 16px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 80%;
+    cursor: pointer;
+    outline: none;
+    height: 4px;
+    overflow: hidden;
+    border-radius: 16px;
+    color: white;
+} */
+
+/* .first-2 input[type="range"]::-webkit-slider-thumb {
+    transform: rotateZ(var(--thumb-rotate, 0deg));
+}
+  
+
+.first-2 input[type="range"]::-moz-range-thumb {
+
+    transform: rotateZ(var(--thumb-rotate, 0deg));
+} */
